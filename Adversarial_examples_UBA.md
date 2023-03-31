@@ -65,7 +65,8 @@ Adversarial example
 
 Sensitive region mask with random holes
 
-![crop001544_person_2_pixel-120_ciou_0 09808554500341415_conf_0 99711907_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229010514-e7c959c8-5bc3-4380-bd06-00c16b61bfc5.png)
+![crop001544_person_0_pixel-555_ciou_0 3660148084163666_conf_0 93109465_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229011600-1780677e-f852-4ce2-929c-6bf880be9c77.png)
+
 
 
 Adversarial example
