@@ -128,14 +128,9 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 **ID: 2008_001580 **
 
-Sensitive region mask with random holes
+Sensitive region mask with random holes  &emsp;  Adversarial example
 
-![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003948-3a652d8a-317e-4381-b381-c8a6f31b05a5.jpg)
-
-
-Adversarial example
-
-![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003592-cb36b229-aea8-41ef-9370-d34f6b3199fb.jpg)
+![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003948-3a652d8a-317e-4381-b381-c8a6f31b05a5.jpg) ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003592-cb36b229-aea8-41ef-9370-d34f6b3199fb.jpg)
 
 
 
@@ -143,16 +138,9 @@ Adversarial example
 
 **ID:crop001544**
 
-Sensitive region mask with random holes
+Sensitive region mask with random holes  &emsp;   Adversarial example: Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504 
 
 ![crop001544_person_0_pixel-555_ciou_0 3660148084163666_conf_0 93109465_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229011600-1780677e-f852-4ce2-929c-6bf880be9c77.png)
-
-
-
-Adversarial example
-
-Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
-
 ![crop001544_epoch-14_iter-125_conf-0 0_ciou-0 0_lpips-0 2178015261888504](https://user-images.githubusercontent.com/69624583/229010715-c96136d1-9581-4300-bcc4-90e00c67e596.jpg)
 
 
