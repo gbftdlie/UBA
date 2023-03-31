@@ -49,63 +49,12 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 
 
-
-**ID: 2008_001580**   Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
-
-![2008_001580_epoch-1_iter-400_advloss-0 18529075384140015_lpips-0 0882343277335167_1](https://user-images.githubusercontent.com/69624583/228114529-3687838f-a979-4051-9c91-d266e6b1075f.jpg)
-
-
-
- NadvPatchD   &emsp;   SpAdv
-
-![2008_001580_NAdvpatchD_1](https://user-images.githubusercontent.com/69624583/228114499-4a034bc5-e153-4124-bb38-e24e285f0e7f.jpg)
-
-
-
-
-**ID: 2007_009899**  Confidence: 0.17384807765483856 IoU: 0.0  lpips: 0.09138169884681702
-
-![2007_009899](https://user-images.githubusercontent.com/69624583/229000337-760cb598-68d9-4c71-8dfe-442a0e5c11a4.jpg)
-
-
-
-
-
-
-
-
-----------------------------------  **NAdvPatchD**  ----------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------------  **SpAdv**  ----------------------------------
-
-
-
-**ID:crop001661**
-
-
-![crop001661](https://user-images.githubusercontent.com/69624583/229015680-ee35bd2b-e953-418c-a787-591c843ac03f.jpg)
-
-
 **ID: 2007_009592**
 
+Sensitive region mask with random holes    &emsp;  Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+
+
+ NadvPatchD   &emsp;     SpAdv
 
 ![2007_009592](https://user-images.githubusercontent.com/69624583/229043230-557b3dc0-cfc3-417e-b0dc-b8b569c33697.jpg)
 
