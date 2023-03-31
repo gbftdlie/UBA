@@ -75,7 +75,7 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 -------------------------------------  **UBA**   -------------------------------------
 
 
-**ID: 2008_001580 **
+**ID: person_and_bike_098 **
 
 Sensitive region mask with random holes  &emsp;  Adversarial example
 
@@ -83,6 +83,13 @@ Sensitive region mask with random holes  &emsp;  Adversarial example
 
 
 
+
+AdvPatchD      &emsp;   NadvPatchD   &emsp;
+
+![person_and_bike_098_p](https://user-images.githubusercontent.com/69624583/229006603-55ede24f-6a88-4626-b83f-985ff8d151a9.jpg) ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229006811-455c10df-8e65-4a6b-b571-18901ec559d9.jpg)
+
+
+SpAdv
 
 
 **ID:crop001544**
@@ -104,48 +111,6 @@ SpAdv
 ![crop001544](https://user-images.githubusercontent.com/69624583/229011923-624cd19a-e154-4684-aa97-32658894f2be.jpg)
 
 
-----------------------------------  **AdvPatchD**  ----------------------------------
-
-
-
-**person_and_bike_098**
-
-![person_and_bike_098_p](https://user-images.githubusercontent.com/69624583/229006603-55ede24f-6a88-4626-b83f-985ff8d151a9.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------------  **NAdvPatchD**  ----------------------------------
-
-
-
-
-**person_and_bike_098**
-
-![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229006811-455c10df-8e65-4a6b-b571-18901ec559d9.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------------  **SpAdv**  ----------------------------------
 
 
 
