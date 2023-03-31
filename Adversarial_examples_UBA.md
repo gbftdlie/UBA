@@ -18,7 +18,7 @@
 **ID:crop001661**   
 
 
-UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example:  conf-0.3673129200935364 iou: 0.0 lpips:0.01821787655353546
 
 ![crop001661](https://user-images.githubusercontent.com/69624583/229013118-042929a0-46fb-4b93-af4b-9e599db4cb1f.png) ![crop001661](https://user-images.githubusercontent.com/69624583/229013294-27c3c3ca-cc0b-4939-bd19-5e850d2ca041.jpg)
 
@@ -84,7 +84,7 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 **ID:2007_009221**   
 
 
-UBA:       Adversarial example     &emsp;    NAdvPatchD 
+UBA:       conf-0.0_iou-0.0_lpips-0.17690640687942505      &emsp;    NAdvPatchD 
 
 ![2007_009221](https://user-images.githubusercontent.com/69624583/229084976-2b052353-a43b-4969-b32f-06b59a99f8cf.jpg) ![2007_009221](https://user-images.githubusercontent.com/69624583/229085239-7df13db1-7f14-470b-9bb7-1ed73dc643af.jpg)
 
@@ -100,7 +100,7 @@ UBA:       Adversarial example     &emsp;    NAdvPatchD
 
 **ID: person_and_bike_098 **
 
-Sensitive region mask with random holes  &emsp;  Adversarial example
+UBA:  Sensitive region mask with random holes  &emsp;  Adversarial example: conf-0.0_iou-0.0_lpips-0.1389068067073822  
 
 ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003948-3a652d8a-317e-4381-b381-c8a6f31b05a5.jpg) ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003592-cb36b229-aea8-41ef-9370-d34f6b3199fb.jpg)
 
@@ -148,7 +148,7 @@ SpAdv
 **ID:2007_003503**   
 
 
-Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
+UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
 
 ![2007_003503](https://user-images.githubusercontent.com/69624583/229058024-9da5d7a4-40ee-439b-b0e4-ab4bb5055b7d.jpg)
 
@@ -214,7 +214,7 @@ NAdvPatchD
 **ID:person_and_bike_091**   
 
 
-UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example:   conf: 0.3727248013019562  iou:0.0 lpips-0.12391622364521027
 
 ![person_and_bike_091_pixel-645_ciou_0_conf_0 0_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229083397-bbf53a94-c5ba-45e8-977c-467c8ba420a7.png)   ![person_and_bike_091_fasterrcnn_epoch-13_iter-200_conf-0 0_ciou-0 0_lpips-0 11818136274814606](https://user-images.githubusercontent.com/69624583/229083522-46011655-2afc-4587-bfe6-8122dd228f25.jpg)
 
@@ -240,7 +240,7 @@ AdvPatchD      &emsp;   NadvPatchD   &emsp;
 **ID: person_and_bike_107**   
 
 
-UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example:  conf-0.1233237162232399  iou: 0.0 lpips:0.14945465326309204
 
 ![person_and_bike_107_pixel-210_ciou_0_conf_0 0_up_reverse_mask_random_hole_0 5](https://user-images.githubusercontent.com/69624583/229087374-ba14535d-2737-4cc3-9e2e-684bf5f338ca.png)   ![person_and_bike_107_epoch-18_iter-425_conf-0 0_ciou-0 0_lpips-0 07403289526700974](https://user-images.githubusercontent.com/69624583/229087492-5022117a-4330-432a-9ee7-435d35ae6957.jpg)
 
