@@ -72,7 +72,21 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 
 
--------------------------------------  **UBA**   -------------------------------------
+
+
+**ID:2007_009221**   
+
+
+UBA:       Adversarial example     &emsp;    NAdvPatchD 
+
+![2007_009221](https://user-images.githubusercontent.com/69624583/229084976-2b052353-a43b-4969-b32f-06b59a99f8cf.jpg) ![2007_009221](https://user-images.githubusercontent.com/69624583/229085239-7df13db1-7f14-470b-9bb7-1ed73dc643af.jpg)
+
+
+ SpAdv
+
+
+![2007_009221](https://user-images.githubusercontent.com/69624583/229085419-4930f9da-1ce4-41b4-8095-185710772e7d.jpg)
+
 
 
 **ID: person_and_bike_098 **
