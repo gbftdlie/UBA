@@ -10,6 +10,11 @@
 
 
 
+-------------------------------------------------------------------------------------
+
+
+
+
 **ID:crop001661**   
 
 
@@ -88,6 +93,8 @@ UBA:       Adversarial example     &emsp;    NAdvPatchD
 ![2007_009221](https://user-images.githubusercontent.com/69624583/229085419-4930f9da-1ce4-41b4-8095-185710772e7d.jpg)
 
 
+-------------------------------------------------------------------------------------
+
 
 **ID: person_and_bike_098 **
 
@@ -104,6 +111,10 @@ AdvPatchD      &emsp;   NadvPatchD   &emsp;
 
 
 SpAdv
+
+
+
+-------------------------------------------------------------------------------------
 
 
 **ID:crop001544**
@@ -127,7 +138,7 @@ SpAdv
 
 
 
-
+-------------------------------------------------------------------------------------
 
 
 
@@ -160,6 +171,10 @@ UBA: Sensitive region mask with random holes    &emsp;  Adversarial example   Co
 
 ![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png) ![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)
 
+
+
+
+-------------------------------------------------------------------------------------
 
 
 
@@ -211,11 +226,33 @@ AdvPatchD      &emsp;   NadvPatchD   &emsp;
 
 
 
+-------------------------------------------------------------------------------------
+
+
+
+**ID: person_and_bike_107**   
+
+
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
+
+![person_and_bike_107_pixel-210_ciou_0_conf_0 0_up_reverse_mask_random_hole_0 5](https://user-images.githubusercontent.com/69624583/229087374-ba14535d-2737-4cc3-9e2e-684bf5f338ca.png)   ![person_and_bike_107_epoch-18_iter-425_conf-0 0_ciou-0 0_lpips-0 07403289526700974](https://user-images.githubusercontent.com/69624583/229087492-5022117a-4330-432a-9ee7-435d35ae6957.jpg)
 
 
 
 
+AdvPatchD      &emsp;   NadvPatchD   &emsp; 
 
+![person_and_bike_107_p](https://user-images.githubusercontent.com/69624583/229087694-d80f97c4-35da-4891-be8f-7a4d3409d45c.jpg)   ![person_and_bike_107](https://user-images.githubusercontent.com/69624583/229087846-5e6df18d-5e93-44d0-9d7f-1acf4e459006.jpg)
+
+
+ SpAdv
+
+
+![person_and_bike_107](https://user-images.githubusercontent.com/69624583/229087997-90251577-6af2-4453-be72-46deeda88379.jpg)
+
+
+
+-------------------------------------------------------------------------------------
 
 
 
