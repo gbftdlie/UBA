@@ -8,7 +8,9 @@
 -------------------------------------  **UBA**   -------------------------------------
 
 **ID: 2007_002273** Confidence Score: 0.18529075384140015  lpips: 0.0882343277335167
+
 Sensitive region mask with random holes
+
 ![2007_002273](https://user-images.githubusercontent.com/69624583/229002229-06379118-671a-447d-8118-177c6c0e6a23.jpg)
 
 Adversarial example
@@ -17,19 +19,24 @@ Adversarial example
 
 
 **ID: 2008_001580**   Confidence Score: 0.18529075384140015  lpips: 0.0882343277335167
+
 ![2008_001580_epoch-1_iter-400_advloss-0 18529075384140015_lpips-0 0882343277335167_1](https://user-images.githubusercontent.com/69624583/228114529-3687838f-a979-4051-9c91-d266e6b1075f.jpg)
 
 
 **ID: 2007_009899**  Confidence Score: 0.17384807765483856  lpips: 0.09138169884681702
+
 ![2007_009899](https://user-images.githubusercontent.com/69624583/229000337-760cb598-68d9-4c71-8dfe-442a0e5c11a4.jpg)
 
 
 **ID: 2007_005696**  Confidence Score: 0.17384807765483856  lpips: 0.09138169884681702
+
 ![2007_005696](https://user-images.githubusercontent.com/69624583/229001121-8471439c-865b-4f24-9032-0a2e80fb50c2.jpg)
 
 
 ----------------------------------  **NAdvPatchD**  ----------------------------------
+
 **ID: 2008_001580 **
+
 ![2008_001580_NAdvpatchD_1](https://user-images.githubusercontent.com/69624583/228114499-4a034bc5-e153-4124-bb38-e24e285f0e7f.jpg)
 
 
