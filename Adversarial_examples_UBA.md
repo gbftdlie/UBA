@@ -118,9 +118,17 @@ SpAdv
 
 
 
-**ID:2007_003503**    Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
+**ID:2007_003503**   
 
-![2007_003503](https://user-images.githubusercontent.com/69624583/229020301-444cfa35-f1c0-4781-8f5b-aaff595b7bcf.jpg)
+
+Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
+
+![2007_003503](https://user-images.githubusercontent.com/69624583/229058024-9da5d7a4-40ee-439b-b0e4-ab4bb5055b7d.jpg)
+
+
+ NadvPatchD   &emsp;   SpAdv
+ 
+ ![2007_003503](https://user-images.githubusercontent.com/69624583/229056614-6c73bca0-b475-4487-853b-d6fa4d8eec37.jpg) ![2007_003503](https://user-images.githubusercontent.com/69624583/229020301-444cfa35-f1c0-4781-8f5b-aaff595b7bcf.jpg)
 
 
 
