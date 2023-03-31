@@ -58,13 +58,13 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 **ID: 2007_009592**
 
- Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+ Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167    &emsp;   NadvPatchD    
 
 ![2007_009592](https://user-images.githubusercontent.com/69624583/229053392-d53134ee-b636-4730-a547-4ffdaf0fa1af.jpg)
 
 
 
- NadvPatchD   &emsp;     SpAdv
+   SpAdv
 
 ![2007_009592](https://user-images.githubusercontent.com/69624583/229043230-557b3dc0-cfc3-417e-b0dc-b8b569c33697.jpg)
 
@@ -148,14 +148,14 @@ SpAdv
 **ID:2007_003503**   
 
 
-UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
+UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649   &emsp;   NadvPatchD 
 
-![2007_003503](https://user-images.githubusercontent.com/69624583/229058024-9da5d7a4-40ee-439b-b0e4-ab4bb5055b7d.jpg)
+![2007_003503](https://user-images.githubusercontent.com/69624583/229058024-9da5d7a4-40ee-439b-b0e4-ab4bb5055b7d.jpg)  ![2007_003503](https://user-images.githubusercontent.com/69624583/229056614-6c73bca0-b475-4487-853b-d6fa4d8eec37.jpg) 
 
 
- NadvPatchD   &emsp;   SpAdv
+  SpAdv
  
- ![2007_003503](https://user-images.githubusercontent.com/69624583/229056614-6c73bca0-b475-4487-853b-d6fa4d8eec37.jpg) ![2007_003503](https://user-images.githubusercontent.com/69624583/229020301-444cfa35-f1c0-4781-8f5b-aaff595b7bcf.jpg)
+![2007_003503](https://user-images.githubusercontent.com/69624583/229020301-444cfa35-f1c0-4781-8f5b-aaff595b7bcf.jpg)
 
 
 
