@@ -51,7 +51,10 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 **ID: 2007_009592**
 
-Sensitive region mask with random holes    &emsp;  Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+ Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+
+![2007_009592](https://user-images.githubusercontent.com/69624583/229053392-d53134ee-b636-4730-a547-4ffdaf0fa1af.jpg)
+
 
 
  NadvPatchD   &emsp;     SpAdv
@@ -91,22 +94,14 @@ Sensitive region mask with random holes  &emsp;   Adversarial example: Confidenc
 
 
 
+AdvPatchD      &emsp;   NadvPatchD   &emsp;  
+
+![crop001544_p](https://user-images.githubusercontent.com/69624583/229012166-3c724746-a31b-4862-960f-705bb301fa4c.jpg) ![crop001544](https://user-images.githubusercontent.com/69624583/229012025-eb160fc6-9a51-4339-934d-42b4db0b5fb2.jpg)
 
 
+SpAdv
 
-**ID:2008_004453**
-
-![2008_004453](https://user-images.githubusercontent.com/69624583/229009883-0153833e-787b-4a3a-912f-cb92f8f1b9f9.jpg)
-
-
-
-
-**ID:2007_003503**
-
-![2007_003503_epoch-13_iter-100_conf-0 0_ciou-0 0_0 7](https://user-images.githubusercontent.com/69624583/229020170-bbd82655-5afb-4039-a23d-82a701ebe690.jpg)
-
-
-
+![crop001544](https://user-images.githubusercontent.com/69624583/229011923-624cd19a-e154-4684-aa97-32658894f2be.jpg)
 
 
 ----------------------------------  **AdvPatchD**  ----------------------------------
@@ -121,9 +116,9 @@ Sensitive region mask with random holes  &emsp;   Adversarial example: Confidenc
 
 
 
-**ID:crop001544**
 
-![crop001544_p](https://user-images.githubusercontent.com/69624583/229012166-3c724746-a31b-4862-960f-705bb301fa4c.jpg)
+
+
 
 
 
@@ -142,9 +137,9 @@ Sensitive region mask with random holes  &emsp;   Adversarial example: Confidenc
 
 
 
-**ID:crop001544**
 
-![crop001544](https://user-images.githubusercontent.com/69624583/229012025-eb160fc6-9a51-4339-934d-42b4db0b5fb2.jpg)
+
+
 
 
 
@@ -154,10 +149,6 @@ Sensitive region mask with random holes  &emsp;   Adversarial example: Confidenc
 
 
 
-
-**ID:crop001544**
-
-![crop001544](https://user-images.githubusercontent.com/69624583/229011923-624cd19a-e154-4684-aa97-32658894f2be.jpg)
 
 
 
