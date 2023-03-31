@@ -23,9 +23,11 @@ Sensitive region mask with random holes     &emsp;       Adversarial example
 
 
 
-**ID: 2007_002273** Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+**ID: 2007_002273** 
 
-Sensitive region mask with random holes    &emsp;  Adversarial example
+Sensitive region mask with random holes    &emsp;  Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+
+
 ![2007_002273](https://user-images.githubusercontent.com/69624583/229002229-06379118-671a-447d-8118-177c6c0e6a23.jpg)
 ![2007_002273_ae](https://user-images.githubusercontent.com/69624583/229002294-1f66a38b-7ba0-4739-9122-a3f3b0fa3b76.jpg)
 
