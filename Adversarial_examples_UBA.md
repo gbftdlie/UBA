@@ -21,7 +21,7 @@ Sensitive region mask with random holes     &emsp;       Adversarial example
 
 
 
-AdvPatchD       NadvPatchD   &emsp; 
+AdvPatchD      &emsp;   NadvPatchD   &emsp; 
 
 ![crop001661_p](https://user-images.githubusercontent.com/69624583/229013407-4cca08f6-080a-4093-a5c3-85aa1e7a5d2e.jpg) ![crop001661](https://user-images.githubusercontent.com/69624583/229013531-dbf91a04-8119-445f-81e9-9aa47b3d0336.jpg)  
 
@@ -42,11 +42,24 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 
 
+ NadvPatchD   &emsp;     SpAdv
+
+![2007_002273](https://user-images.githubusercontent.com/69624583/229049687-a5572af3-a8d3-477b-ac7f-07956425c5d0.jpg)
+
+
+
+
+
+
 
 **ID: 2008_001580**   Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
 
 ![2008_001580_epoch-1_iter-400_advloss-0 18529075384140015_lpips-0 0882343277335167_1](https://user-images.githubusercontent.com/69624583/228114529-3687838f-a979-4051-9c91-d266e6b1075f.jpg)
 
+
+
+
+ NadvPatchD   &emsp;   SpAdv
 
 
 
