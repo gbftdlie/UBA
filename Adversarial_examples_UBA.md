@@ -12,16 +12,9 @@
 -------------------------------------  **UBA**   -------------------------------------
 
 
-**ID:crop001661**
+**ID:crop001661**    Sensitive region mask with random holes            Adversarial example
 
-Sensitive region mask with random holes
-
-![crop001661](https://user-images.githubusercontent.com/69624583/229013118-042929a0-46fb-4b93-af4b-9e599db4cb1f.png)
-
-
-Adversarial example
-
-![crop001661](https://user-images.githubusercontent.com/69624583/229013294-27c3c3ca-cc0b-4939-bd19-5e850d2ca041.jpg)
+![crop001661](https://user-images.githubusercontent.com/69624583/229013118-042929a0-46fb-4b93-af4b-9e599db4cb1f.png) ![crop001661](https://user-images.githubusercontent.com/69624583/229013294-27c3c3ca-cc0b-4939-bd19-5e850d2ca041.jpg)
 
 
 
@@ -62,6 +55,12 @@ Adversarial example
 
 
 
+
+
+**ID: 2007_009592**
+
+
+![2007_009592](https://user-images.githubusercontent.com/69624583/229043040-23ec3350-a072-403c-9a04-b75841a77bd1.jpg)
 
 
 
@@ -107,7 +106,10 @@ Adversarial example
 ![crop001661](https://user-images.githubusercontent.com/69624583/229015680-ee35bd2b-e953-418c-a787-591c843ac03f.jpg)
 
 
+**ID: 2007_009592**
 
+
+![2007_009592](https://user-images.githubusercontent.com/69624583/229043230-557b3dc0-cfc3-417e-b0dc-b8b569c33697.jpg)
 
 
 
