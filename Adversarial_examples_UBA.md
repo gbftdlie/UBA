@@ -47,7 +47,9 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
  NadvPatchD   &emsp;     SpAdv
 
-![2007_002273](https://user-images.githubusercontent.com/69624583/229049687-a5572af3-a8d3-477b-ac7f-07956425c5d0.jpg)
+![2007_002273](https://user-images.githubusercontent.com/69624583/229049687-a5572af3-a8d3-477b-ac7f-07956425c5d0.jpg) ![2007_002273](https://user-images.githubusercontent.com/69624583/229092281-af15488b-cb00-4b2e-9485-cad15a5d5e82.jpg)
+
+
 
 
 -------------------------------------------------------------------------------------
@@ -171,6 +173,10 @@ UBA: Sensitive region mask with random holes    &emsp;  Adversarial example   Co
 
 ![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png) ![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)
 
+
+
+Spadv
+![2007_001960](https://user-images.githubusercontent.com/69624583/229092581-75f5fd89-47c8-4eca-a79e-1a0fae6f2a12.jpg)
 
 
 
