@@ -7,7 +7,7 @@
 
 -------------------------------------  **UBA**   -------------------------------------
 
-**ID: 2007_002273** Confidence Score: 0.18529075384140015  lpips: 0.0882343277335167
+**ID: 2007_002273** Confidence Score: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
 
 Sensitive region mask with random holes
 
@@ -18,17 +18,17 @@ Adversarial example
 ![2007_002273_ae](https://user-images.githubusercontent.com/69624583/229002294-1f66a38b-7ba0-4739-9122-a3f3b0fa3b76.jpg)
 
 
-**ID: 2008_001580**   Confidence Score: 0.18529075384140015  lpips: 0.0882343277335167
+**ID: 2008_001580**   Confidence Score: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
 
 ![2008_001580_epoch-1_iter-400_advloss-0 18529075384140015_lpips-0 0882343277335167_1](https://user-images.githubusercontent.com/69624583/228114529-3687838f-a979-4051-9c91-d266e6b1075f.jpg)
 
 
-**ID: 2007_009899**  Confidence Score: 0.17384807765483856  lpips: 0.09138169884681702
+**ID: 2007_009899**  Confidence Score: 0.17384807765483856 IoU: 0.0  lpips: 0.09138169884681702
 
 ![2007_009899](https://user-images.githubusercontent.com/69624583/229000337-760cb598-68d9-4c71-8dfe-442a0e5c11a4.jpg)
 
 
-**ID: 2007_005696**  Confidence Score: 0.17384807765483856  lpips: 0.09138169884681702
+**ID: 2007_005696**  Confidence Score: 0.17384807765483856 IoU: 0.0  lpips: 0.09138169884681702
 
 ![2007_005696](https://user-images.githubusercontent.com/69624583/229001121-8471439c-865b-4f24-9032-0a2e80fb50c2.jpg)
 
@@ -60,6 +60,30 @@ Adversarial example
 
 
 
+
+**ID:crop001544**
+
+Sensitive region mask with random holes
+
+![crop001544_person_2_pixel-120_ciou_0 09808554500341415_conf_0 99711907_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229010514-e7c959c8-5bc3-4380-bd06-00c16b61bfc5.png)
+
+
+Adversarial example
+
+Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
+![crop001544_epoch-14_iter-125_conf-0 0_ciou-0 0_lpips-0 2178015261888504](https://user-images.githubusercontent.com/69624583/229010715-c96136d1-9581-4300-bcc4-90e00c67e596.jpg)
+
+
+
+
+
+
+**ID:2008_004453**
+
+![2008_004453](https://user-images.githubusercontent.com/69624583/229009883-0153833e-787b-4a3a-912f-cb92f8f1b9f9.jpg)
+
+
+
 ----------------------------------  **AdvPatchD**  ----------------------------------
 
 **person_and_bike_098**
@@ -73,4 +97,17 @@ Adversarial example
 
 
 ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229006811-455c10df-8e65-4a6b-b571-18901ec559d9.jpg)
+
+
+
+
+
+
+
+
+=======================================================================================
+
+**SSD**
+
+-------------------------------------  **UBA**   -------------------------------------
 
