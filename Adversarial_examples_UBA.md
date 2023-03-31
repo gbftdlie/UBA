@@ -42,7 +42,9 @@ Adversarial example
 **ID: 2008_001580 **
 
 Sensitive region mask with random holes
-![person_and_bike_098_m](https://user-images.githubusercontent.com/69624583/229003577-847e9f70-2419-4fde-a93e-faa8896c94bb.jpg)
+
+![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003948-3a652d8a-317e-4381-b381-c8a6f31b05a5.jpg)
+
 
 
 Adversarial example
