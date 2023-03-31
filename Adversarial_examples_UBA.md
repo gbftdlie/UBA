@@ -13,7 +13,7 @@
 **ID:crop001661**   
 
 
-Sensitive region mask with random holes     &emsp;       Adversarial example
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
 
 ![crop001661](https://user-images.githubusercontent.com/69624583/229013118-042929a0-46fb-4b93-af4b-9e599db4cb1f.png) ![crop001661](https://user-images.githubusercontent.com/69624583/229013294-27c3c3ca-cc0b-4939-bd19-5e850d2ca041.jpg)
 
@@ -140,13 +140,8 @@ Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649
 =======================================================================================
 
 
-
--------------------------------------  **UBA**   -------------------------------------
-
-
-
 **ID: 2007_001960 **       
-Sensitive region mask with random holes    &emsp;  Adversarial example   Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971
+UBA: Sensitive region mask with random holes    &emsp;  Adversarial example   Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971
 
 
 ![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png) ![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)
@@ -156,7 +151,7 @@ Sensitive region mask with random holes    &emsp;  Adversarial example   Confide
 
 **ID: person_076 **       
     
-UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971     &emsp;   AdvPatchD      &emsp;    NAdvPatchD
+UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971     &emsp;   AdvPatchD      &emsp;   
 
 ![person_076_epoch-10_iter-425_conf-0 0_ciou-0 0_lpips-0 06030198186635971_70](https://user-images.githubusercontent.com/69624583/229038761-f702c606-4428-48d0-b2c5-fb7366d16645.jpg)
 ![person_076_p](https://user-images.githubusercontent.com/69624583/229040582-d774e540-49a9-4115-86d5-df70cf486bda.jpg) 
@@ -165,6 +160,40 @@ UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971     &emsp;   AdvPatch
 NAdvPatchD
 
 ![person_076_70](https://user-images.githubusercontent.com/69624583/229039189-5640bc02-0c47-4085-b1c7-3810370a9564.jpg)
+
+
+
+
+
+=======================================================================================
+
+                                       **YOLOv2**
+
+=======================================================================================
+
+
+
+
+
+**ID:person_and_bike_091**   
+
+
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example
+
+![person_and_bike_091_pixel-645_ciou_0_conf_0 0_up_reverse_mask_random_hole_0 3](https://user-images.githubusercontent.com/69624583/229083397-bbf53a94-c5ba-45e8-977c-467c8ba420a7.png)   ![person_and_bike_091_fasterrcnn_epoch-13_iter-200_conf-0 0_ciou-0 0_lpips-0 11818136274814606](https://user-images.githubusercontent.com/69624583/229083522-46011655-2afc-4587-bfe6-8122dd228f25.jpg)
+
+
+
+AdvPatchD      &emsp;   NadvPatchD   &emsp; 
+
+![person_and_bike_091_p](https://user-images.githubusercontent.com/69624583/229083692-60d97804-32c0-4385-9dd4-516258272795.jpg) ![person_and_bike_091](https://user-images.githubusercontent.com/69624583/229083786-21b861d1-6843-4b56-acab-d44abafe8b4e.jpg)
+
+
+
+ SpAdv
+
+
+![person_and_bike_091](https://user-images.githubusercontent.com/69624583/229083942-7a984aeb-5d98-46bb-8e52-d9643bad4eca.jpg)
 
 
 
