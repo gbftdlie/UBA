@@ -72,6 +72,7 @@ Sensitive region mask with random holes
 Adversarial example
 
 Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
+
 ![crop001544_epoch-14_iter-125_conf-0 0_ciou-0 0_lpips-0 2178015261888504](https://user-images.githubusercontent.com/69624583/229010715-c96136d1-9581-4300-bcc4-90e00c67e596.jpg)
 
 
@@ -92,6 +93,10 @@ Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
 ![person_and_bike_098_p](https://user-images.githubusercontent.com/69624583/229006603-55ede24f-6a88-4626-b83f-985ff8d151a9.jpg)
 
 
+**ID:crop001544**
+
+![crop001544_p](https://user-images.githubusercontent.com/69624583/229012166-3c724746-a31b-4862-960f-705bb301fa4c.jpg)
+
 ----------------------------------  **NAdvPatchD**  ----------------------------------
 
 **person_and_bike_098**
@@ -100,9 +105,16 @@ Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
 ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229006811-455c10df-8e65-4a6b-b571-18901ec559d9.jpg)
 
 
+**ID:crop001544**
+
+![crop001544](https://user-images.githubusercontent.com/69624583/229012025-eb160fc6-9a51-4339-934d-42b4db0b5fb2.jpg)
 
 
+----------------------------------  **SpAdv**  ----------------------------------
 
+**ID:crop001544**
+
+![crop001544](https://user-images.githubusercontent.com/69624583/229011923-624cd19a-e154-4684-aa97-32658894f2be.jpg)
 
 
 
