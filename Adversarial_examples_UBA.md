@@ -244,6 +244,44 @@ Confidence: 0.0  IoU: 0.0  Lpips:0.2178015261888504
 
 
 
+**ID: person_076 **        Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971
+
+
+
+![person_076_epoch-10_iter-425_conf-0 0_ciou-0 0_lpips-0 06030198186635971_70](https://user-images.githubusercontent.com/69624583/229038761-f702c606-4428-48d0-b2c5-fb7366d16645.jpg)
+
+
+
+
+**ID: 2007_001960 **       Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971
+
+Sensitive region mask with random holes
+
+![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png)
+
+Adversarial example
+
+![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)
+
+
+----------------------------------  **AdvPatchD**  ----------------------------------
+
+**ID: person_076 **  
+
+
+
+![person_076_p](https://user-images.githubusercontent.com/69624583/229040582-d774e540-49a9-4115-86d5-df70cf486bda.jpg)
+
+
+
+----------------------------------  **NAdvPatchD**  ----------------------------------
+
+
+**ID: person_076 **  
+
+
+
+![person_076_70](https://user-images.githubusercontent.com/69624583/229039189-5640bc02-0c47-4085-b1c7-3810370a9564.jpg)
 
 
 
