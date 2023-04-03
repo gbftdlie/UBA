@@ -13,7 +13,7 @@ For each object detection model, more sensitive region masks with random holes a
 
 The bounding boxes and confidence shown in the adversarial examples are detected by the target object detection models.
 
-If there are no bounding boxes and confidence in the adversarial examples, it means that this these adversarial examples have made the target object detection models unable to detect the objects in the adversarial examples.
+If there are no bounding boxes and confidence in the adversarial examples, it means that this these adversarial examples have made the target object detection models fail to detect the objects in the adversarial examples.
 
 
 
