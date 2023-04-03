@@ -171,12 +171,11 @@ UBA: Confidence: 0.0  IoU: 0.0  Lpips: 0.175192728638649   &emsp;   NadvPatchD
 UBA: Sensitive region mask with random holes    &emsp;  Adversarial example   Confidence: 0.0  IoU: 0.0  Lpips: 0.06030198186635971
 
 
-![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png) ![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)   ![2007_001960](https://user-images.githubusercontent.com/69624583/229430317-832588d5-5ace-4a7f-9f2b-6dba7d19f7ec.jpg)
+![2007_001960](https://user-images.githubusercontent.com/69624583/229041021-46f37f14-3f99-4fa8-8a18-6b04b5afb383.png) ![2007_001960](https://user-images.githubusercontent.com/69624583/229040992-66892802-dbd3-41fe-b9d1-67449c3eb310.jpg)  
 
 
-Spadv
-
-![2007_001960](https://user-images.githubusercontent.com/69624583/229092581-75f5fd89-47c8-4eca-a79e-1a0fae6f2a12.jpg)
+NAdvPatchD &emsp; Spadv
+![2007_001960](https://user-images.githubusercontent.com/69624583/229430317-832588d5-5ace-4a7f-9f2b-6dba7d19f7ec.jpg) ![2007_001960](https://user-images.githubusercontent.com/69624583/229092581-75f5fd89-47c8-4eca-a79e-1a0fae6f2a12.jpg)
 
 
 
