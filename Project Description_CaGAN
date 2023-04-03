@@ -1,5 +1,5 @@
 
-CAGAN
+CaGAN
 
 Based on CRFill (https://github.com/zengxianyu/crfill), the CaGAN module performs the adversarial contextual reconstruction on the sensitive regions found by ODHU.
 
