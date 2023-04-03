@@ -3,10 +3,14 @@ CAGAN
 
 Based on CRFill (https://github.com/zengxianyu/crfill), the CaGAN module performs the adversarial contextual reconstruction on the sensitive regions found by ODHU.
 
+
+（1） UBA loss implemention
+
 The core of the CaGAN module is to add our UBA loss to the CaGAN generator to achieve adversarial example generation, which is coded in models/networks/loss.py.
 
 Since the output format of each object detection model is not consistent, we implemented a separate class for each surrogate object detection model to carry the forward function.
-Here is an example of this class on Faster R-CNN.
+
+Here is an example of this class on Faster R-CNN:
 
 class FasterRCNNLoss(nn.Module):
     def __init__(self):
@@ -40,13 +44,12 @@ class FasterRCNNLoss(nn.Module):
         return total_value, max_prob1, max_iou_value
         
         
+        
      
      
+（2） UBA loss initialization  for InpaintModel
      
-     
-     
-     
-     For InpaintModel initialization, the UBA loss initialization is added to : __init__ function of InpaintModel Class  in crfill/models/inpaint_model.py  
+ For InpaintModel initialization, the UBA loss initialization is added to : __init__ function of InpaintModel Class  in crfill/models/inpaint_model.py  
       At the end of the "set loss functions" comment in line 42, add the corresponding UBA loss by model type:
       
       
@@ -71,8 +74,9 @@ class FasterRCNNLoss(nn.Module):
      
      
      
+ (3) new CaGAN generator loss
      
-     Finally,   the UBA loss is  added to CaGAN generator loss in  g_image_loss  function:
+ Finally,   the UBA loss is added to CaGAN generator loss in  g_image_loss  function:
         
                 if not self.opt.no_gan_adv_loss:
             G_losses['GAN_Adv'] = 0
