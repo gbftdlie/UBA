@@ -1,0 +1,86 @@
+
+ODHU
+
+The ODHU module is based on IGOS (https://github.com/zhongangqi/IGOS) with added support for target detection models.
+The core of the ODHUm module is the addition of our UBA loss, which is coded in IGOS methods_helper.py and replaces the original IGOS's interval_score function and integrated_gradient function  
+
+
+Since the output format of each target detection model is inconsistent, we implemented individual interval_score functions and integrated_gradient function  for each surrogate object detection model.
+The following is a sample of two functions on Faster R-CNN.
+
+
+def integrated_gradient_fsrcnn(model, images, baselines, up_masks, num_iter, cls_id_attacked, gt_bbox, lambda_conf, lambda_iou, input_size):
+    """
+        Calculates and backprops the integrated gradient.
+        Does not have the original mask, so does not return the gradient
+
+    :param model:
+    :param images:
+    :param baselines:
+    :param labels:
+    :param up_masks:
+    :param num_iter:
+    :return:
+    """
+    for i in range(images.shape[0]):
+        loss = interval_score_fsrcnn(
+                model,
+                images[i].unsqueeze(0),
+                baselines[i].unsqueeze(0),
+                up_masks[i].unsqueeze(0),
+                num_iter, 
+                cls_id_attacked,
+                gt_bbox,
+                lambda_conf,
+                lambda_iou, 
+                input_size)
+        #print('loss: ', loss)
+        if(float(loss.sum().item()) == 0.):
+            #print('loss: ', loss.sum().item())
+            continue
+        loss.sum().backward(retain_graph=True)
+    
+
+def interval_score_fsrcnn(model, images, baselines, up_masks, num_iter, cls_id_attacked, gt_bbox, lambda_conf, lambda_iou, input_size):
+    # The intervals to approximate the integral over
+    #intervals = torch.linspace(1/num_iter, 1, num_iter, requires_grad=False).cuda().view(-1, 1, 1, 1)
+    intervals = torch.linspace(1/num_iter, 1, num_iter, requires_grad=False).cuda().view(-1, 1, 1, 1)
+    interval_masks = up_masks.unsqueeze(1) * intervals
+
+    local_images = phi(images.unsqueeze(1), baselines.unsqueeze(1), interval_masks) #[15,3,416,416]
+    local_images = local_images + torch.randn_like(local_images) * .2
+
+    # Shape of image tensor when viewed in batch form
+    new_shape = torch.tensor(images.shape) * torch.tensor(intervals.shape)
+    
+
+    max_prob_interval, bboxes_interval, weight_sum_score_interval = model.detect(tensor_image_inputs=local_images.view(*new_shape), cls_id_attacked=int(cls_id_attacked))
+
+    '''
+    weight_conf_losses
+    '''
+    weight_sum_conf_loss = weight_sum_score_interval.view(images.shape[0], num_iter, -1) 
+    
+    
+    # print('bboxes_interval: ', bboxes_interval)
+    '''
+    iou_losses
+    '''
+    local_images_max_iou_loss_ = []
+    for bbox in bboxes_interval:
+
+        if (bbox.shape==torch.Size([0])):#print("no detection result!")
+            max_iou_loss = torch.tensor([0.0]).cuda().requires_grad_(True)
+            local_images_max_iou_loss_.append(max_iou_loss)
+            continue
+        gt_bbox_xyxy = ((gt_bbox[0:4])*input_size).requires_grad_(True)
+        pd_bbox_xyxy = ((bbox[:, 0:4])*input_size).requires_grad_(True)
+
+        iou_loss = iou(gt_bbox_xyxy, pd_bbox_xyxy)
+        max_iou_loss = torch.max(iou_loss)
+        local_images_max_iou_loss_.append(max_iou_loss)
+    iou_losses = torch.tensor(local_images_max_iou_loss_).cuda().view(images.shape[0], num_iter, -1)        
+        
+    total_loss = weight_sum_conf_loss*(lambda_conf) + lambda_iou*iou_losses
+
+    return total_loss
