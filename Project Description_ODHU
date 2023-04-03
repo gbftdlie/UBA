@@ -1,5 +1,5 @@
 
-ODHU
+ODHU (Object Detection Heatmap Unit)
 
 Based on IGOS(https://github.com/zhongangqi/IGOS), the ODHU module performs the heatmap calculation for object detection models.
 The core of the ODHU module is the addition of our UBA loss, which is coded in methods_helper.py of IGOS project and replaces the original IGOS's interval_score function and integrated_gradient function  
