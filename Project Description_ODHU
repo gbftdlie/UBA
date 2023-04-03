@@ -1,8 +1,8 @@
 
 ODHU
 
-Based on IGOS(https://github.com/zhongangqi/IGOS), the ODHU module adds the heatmap calculation for object detection models.
-The core of the ODHUm module is the addition of our UBA loss, which is coded in IGOS methods_helper.py and replaces the original IGOS's interval_score function and integrated_gradient function  
+Based on IGOS(https://github.com/zhongangqi/IGOS), the ODHU module performs the heatmap calculation for object detection models.
+The core of the ODHU module is the addition of our UBA loss, which is coded in methods_helper.py of IGOS project and replaces the original IGOS's interval_score function and integrated_gradient function  
 
 
 Since the output format of each target detection model is inconsistent, we implemented individual interval_score functions and integrated_gradient function  for each surrogate object detection model.
