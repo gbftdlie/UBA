@@ -6,7 +6,7 @@ The core of the ODHU module is the addition of our UBA loss, which is coded in m
 
 
 Since the output format of each target detection model is inconsistent, we implemented individual interval_score functions and integrated_gradient function  for each surrogate object detection model.
-The following is a sample of two functions on Faster R-CNN.
+The following is a example of two functions on Faster R-CNN.
 
 
 def integrated_gradient_fsrcnn(model, images, baselines, up_masks, num_iter, cls_id_attacked, gt_bbox, lambda_conf, lambda_iou, input_size):
