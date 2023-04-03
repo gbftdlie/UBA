@@ -9,6 +9,8 @@ Since the output format of each target detection model is inconsistent, we imple
 The following is a example of two functions on Faster R-CNN.
 
 
+(1) integrated_gradient function
+
 def integrated_gradient_fsrcnn(model, images, baselines, up_masks, num_iter, cls_id_attacked, gt_bbox, lambda_conf, lambda_iou, input_size):
     """
         Calculates and backprops the integrated gradient.
@@ -40,6 +42,8 @@ def integrated_gradient_fsrcnn(model, images, baselines, up_masks, num_iter, cls
             continue
         loss.sum().backward(retain_graph=True)
     
+    
+(2) interval_score  function
 
 def interval_score_fsrcnn(model, images, baselines, up_masks, num_iter, cls_id_attacked, gt_bbox, lambda_conf, lambda_iou, input_size):
     # The intervals to approximate the integral over
