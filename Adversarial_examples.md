@@ -34,7 +34,7 @@ If there are no bounding boxes and confidence in the adversarial examples, it me
 **ID:crop001661**   
 
 
-UBA: Sensitive region mask with random holes     &emsp;       Adversarial example:  conf-0.3673129200935364 iou: 0.0 lpips:0.01821787655353546
+UBA: Sensitive region mask with random holes     &emsp;       Adversarial example:  Confidence: 0.3673129200935364 iou: 0.0  Lpips:0.01821787655353546
 
 ![crop001661](https://user-images.githubusercontent.com/69624583/229013118-042929a0-46fb-4b93-af4b-9e599db4cb1f.png) ![crop001661](https://user-images.githubusercontent.com/69624583/229013294-27c3c3ca-cc0b-4939-bd19-5e850d2ca041.jpg)
 
@@ -53,7 +53,7 @@ AdvPatchD      &emsp;   NadvPatchD   &emsp;
 
 **ID: 2007_002273** 
 
-Sensitive region mask with random holes    &emsp;  Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167
+Sensitive region mask with random holes    &emsp;  Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  Lpips: 0.0882343277335167
 
 
 ![2007_002273](https://user-images.githubusercontent.com/69624583/229002229-06379118-671a-447d-8118-177c6c0e6a23.jpg)
@@ -74,7 +74,7 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 
 **ID: 2007_009592**
 
- Adversarial example: Confidence: 0.18529075384140015 IoU: 0.0  lpips: 0.0882343277335167    &emsp;   NadvPatchD    
+ Adversarial example: Confidence: 0.10698097199201584 IoU: 0.0  lpips: 0.0882343277335167    &emsp;   NadvPatchD    
 
 ![2007_009592](https://user-images.githubusercontent.com/69624583/229053392-d53134ee-b636-4730-a547-4ffdaf0fa1af.jpg) ![2007_009592](https://user-images.githubusercontent.com/69624583/229430066-17018f45-4a29-449d-9f24-2df428307a40.jpg)
 
@@ -100,7 +100,7 @@ Sensitive region mask with random holes    &emsp;  Adversarial example: Confiden
 **ID:2007_009221**   
 
 
-UBA:       conf-0.0_iou-0.0_lpips-0.17690640687942505      &emsp;    NAdvPatchD 
+UBA:       Confidence:0.0 iou:0.0  lpips:0.17690640687942505      &emsp;    NAdvPatchD 
 
 ![2007_009221](https://user-images.githubusercontent.com/69624583/229084976-2b052353-a43b-4969-b32f-06b59a99f8cf.jpg) ![2007_009221](https://user-images.githubusercontent.com/69624583/229085239-7df13db1-7f14-470b-9bb7-1ed73dc643af.jpg)
 
@@ -116,7 +116,7 @@ UBA:       conf-0.0_iou-0.0_lpips-0.17690640687942505      &emsp;    NAdvPatchD
 
 **ID: person_and_bike_098 **
 
-UBA:  Sensitive region mask with random holes  &emsp;  Adversarial example: conf-0.0_iou-0.0_lpips-0.1389068067073822  
+UBA:  Sensitive region mask with random holes  &emsp;  Adversarial example: Confidence:0.0  iou:0.0 Lpips: 0.1389068067073822  
 
 ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003948-3a652d8a-317e-4381-b381-c8a6f31b05a5.jpg) ![person_and_bike_098](https://user-images.githubusercontent.com/69624583/229003592-cb36b229-aea8-41ef-9370-d34f6b3199fb.jpg)
 
